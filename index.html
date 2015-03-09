@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Samidha's food journey</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='http://fonts.googleapis.com/css?family=Give+You+Glory|Allura|Grand+Hotel|Just+Me+Again+Down+Here|Shadows+Into+Light+Two|Sintony:400,700|Kaushan+Script|Pinyon+Script|Imprima|Englebert|Qwigley|Oregano:400,400italic' rel='stylesheet' type='text/css'>
+	<!--if you dont include rel="stylesheet", the content is not centered-->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<!-- <link href="www.glyphicons.com"> -->
+
+	<!-- <script type="text/javascript" src="js/app.js"></script> -->
+</head>
+<body>
+	<div class="container">
+		<!-- Header -->
+		<div class="row">
+			<div class="col-md-1">
+				<img class="img-responsive img-circle" src="http://lorempixel.com/65/65/food" alt="logo">
+			</div>
+			<div class="col-md-9">
+				<h1 class="site-title">Turmeric</h1>
+			</div>
+			<div class="col-md-2 icons">
+				<!-- <a href=""><span class="glyphicon glyphicon-facebook"></span></a>
+				<span class="glyphicon social social-twitter"></span>
+				<span class="social social-rss"></span>
+				<span class="social social-google-plus"></span>
+				<span class="social social-pinterest"></span> -->
+
+				<ul class="nav nav-pills nav-justified my-nav-thumbnails">
+					<li><img class="img-responsive" src="images/social-1-pinterest.png" alt="pinterest"></li>
+					<li><img class="img-responsive" src="images/social-3-google-plus.png" alt="google plus"></li>
+					<li><img class="img-responsive" src="images/social-31-facebook.png" alt="facebook"></li>
+					<li><img class="img-responsive" src="images/social-32-twitter.png" alt="twitter"></li>
+					<li><img class="img-responsive" src="images/social-38-rss.png" alt="subscribe"></li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- Top navigation menu-->
+		<div class="row top-menu">
+			<!-- Added btn-group for each button to provide dropdown-menu for each button -->
+			<div class="col-md-2 box">
+				<!-- Added custom-margin class to space out the button evenly with margins to left and right. Also added margin-top and margin-bottom -->
+					<button type="button" class="btn btn-group-justified btn-default dropdown-toggle custom-margin btn-block" data-toggle="dropdown" aria-expanded="false">
+					Home <span class="caret"></span>
+					</button>
+	  		</div>
+
+	  		<div class="col-md-2 box">
+				<button type="button" class="btn btn-group-justified btn-default dropdown-toggle custom-margin btn-block" data-toggle="dropdown" aria-expanded="false">
+    					Recipes <span class="caret"></span>
+    			</button>
+				<ul class="dropdown-menu">
+					<li><a href="">Appetizers</a></li>
+					<li><a href="">Vegetarian</a></li>
+					<li><a href="">Non-vegetarian</a></li>
+					<li><a href="">Soups</a></li>
+					<li><a href="">Salads</a></li>
+					<li><a href="">Desserts</a></li>
+					<li><a href="">Spices</a></li>
+				</ul>
+			</div>
+
+			<div class="col-md-2 box">
+				<button type="button" class="btn btn-group-justified btn-default dropdown-toggle custom-margin" data-toggle="dropdown" aria-expanded="false">
+    					Sitemap <span class="caret"></span>
+  				</button>
+		  	</div>
+
+		  	<div class="col-md-2 box">
+  				<button type="button" class="btn btn-group-justified btn-default dropdown-toggle custom-margin" data-toggle="dropdown" aria-expanded="false">
+    					Contact me <span class="caret"></span>
+  				</button>
+		  	</div>
+
+		  	<div class="col-md-2 box">
+  				<button type="button" class="btn btn-group-justified btn-default dropdown-toggle custom-margin" data-toggle="dropdown" aria-expanded="false">
+    					About <span class="caret"></span>
+  				</button>
+
+  				<ul class="dropdown-menu">
+  					<li><a href="">Me</a></li>
+  					<li><a href="">My food journey</a></li>
+  				</ul>
+		  	</div>
+
+		  	<div class="col-md-2 box">
+  				<button type="button" class="btn btn-group-justified btn-default dropdown-toggle custom-margin" data-toggle="dropdown" aria-expanded="false">
+    					Photography <span class="caret"></span>
+  				</button>
+
+  				<ul class="dropdown-menu">
+  					<li><a href="">Nature</a></li>
+  					<li><a href="">Food journey</a></li>
+  				</ul>
+		  	</div>
+		</div>
+
+		<!-- Slideshow of recipes of the month -->
+		<div class="row">
+			<div class="col-md-7">
+				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+				  <!-- Indicators -->
+				  <ol class="carousel-indicators">
+				    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+				  </ol>
+
+				  <!-- Wrapper for slides -->
+				  <div class="carousel-inner" role="listbox">
+				    <div class="item active">
+				      <img class="img-responsive" src="http://lorempixel.com/652/300/food/5" alt="...">
+				      <div class="carousel-caption">
+				        <h3>Recipes of the month</h3>
+				      </div>
+				    </div>
+				    <div class="item">
+				      <img class="img-responsive" src="http://lorempixel.com/652/300/food/7" alt="...">
+				      <div class="carousel-caption">
+				        <h3>Recipes of the month</h3>
+				      </div>
+				    </div>
+				    <div class="item">
+				      <img class="img-responsive" src="http://lorempixel.com/652/300/food/9" alt="...">
+				      <div class="carousel-caption">
+				        <h3>Recipes of the month</h3>
+				      </div>
+				    </div>
+				  </div>
+
+				  <!-- Controls -->
+				  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+				    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				    <span class="sr-only">Previous</span>
+				  </a>
+				  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+				    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				    <span class="sr-only">Next</span>
+				  </a>
+				</div>
+			</div>
+			<div class="col-md-5">
+			</div>
+		</div>
+
+		<!-- Main content -->
+		<div class="row">
+
+		</div>
+
+	</div>
+	<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>

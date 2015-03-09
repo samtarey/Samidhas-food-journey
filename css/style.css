@@ -1,0 +1,46 @@
+*{
+	/*box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-moz-box-sizing: border-box;*/
+	/*border: 1px red solid !important;*/
+}
+
+.box {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.custom-margin {
+	margin: 20px 0px 20px;
+}
+
+.top-menu {
+	/*background-color: #DADADA;*/
+}
+
+.my-nav-thumbnails {
+	margin-top: 30px;
+}
+
+li {
+	list-style-type: none;
+}
+
+.site-title {
+	/*font-family: 'Give You Glory', cursive;*/
+	font-size: 60px;
+	font-weight: bold;
+	color: #F3AC07;
+	/*font-family: 'Allura', cursive;
+	font-family: 'Grand Hotel', cursive;
+	font-family: 'Just Me Again Down Here', cursive;
+	font-family: 'Shadows Into Light Two', cursive;
+	font-family: 'Sintony', sans-serif;
+	font-family: 'Kaushan Script', cursive;
+	font-family: 'Pinyon Script', cursive;
+	font-family: 'Imprima', sans-serif;
+	font-family: 'Englebert', sans-serif;*/
+	font-family: 'Qwigley', cursive;
+	/*font-family: 'Oregano', cursive;*/
+}
